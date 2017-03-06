@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ailatrieuphu">
+<TextView
+    android:id="@+id/text_cauhoi"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    />
+    <Button
+        android:id="@+id/button_dapana"
+        android:text="@string/Dapana"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_game_height"
+        android:background="@color/colorBackgroud"/>
+    <Button
+        android:id="@+id/button_dapanb"
+        android:text="@string/Dapanb"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_game_height"
+        android:background="@color/colorBackgroud"
+        android:layout_marginTop="@dimen/layout_game_margin_top"
+        />
+    <Button
+    android:id="@+id/button_dapanc"
+    android:text="@string/Dapanc"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_game_height"
+    android:background="@color/colorBackgroud"
+        android:layout_marginTop="@dimen/layout_game_margin_top"/>
+    <Button
+    android:id="@+id/button_dapand"
+    android:text="@string/Dapand"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_game_height"
+        android:layout_marginTop="@dimen/layout_game_margin_top"
+    android:background="@color/colorBackgroud"/>
+</LinearLayout>
