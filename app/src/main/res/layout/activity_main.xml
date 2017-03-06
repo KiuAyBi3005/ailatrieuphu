@@ -6,50 +6,54 @@
     android:layout_height="match_parent"
     android:background="@color/colorBackgroud"
     tools:context="com.example.quanganhpham.gameailatrieuphu.MainActivity">
-<ImageView
-    android:id="@+id/image_game"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@mipmap/maxresdefault"
 
-    />
-
-    <Button
-        android:id="@+id/buton_batdau"
-        android:text="@string/Batdau"
+    <ImageView
+        android:id="@+id/image_game"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@mipmap/maxresdefault"
 
+        />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/image_game"
+
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/activity_margin_top" />
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:text="@string/start" />
+
     <Button
-        android:id="@+id/buton_huongdan"
-        android:text="@string/Huongdan"
+        android:id="@+id/button_guide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start"
 
-        android:layout_below="@+id/buton_batdau"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/activity_margin_top" />
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:text="@string/guide" />
+
     <Button
-        android:id="@+id/buton_thongtin"
-        android:text="@string/Thongtin"
+        android:id="@+id/button_information"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/button_guide"
 
-        android:layout_below="@+id/buton_huongdan"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/activity_margin_top" />
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:text="@string/information" />
+
     <Button
-        android:id="@+id/buton_thoat"
-        android:text="@string/Thoat"
+        android:id="@+id/button_exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/button_information"
 
-        android:layout_below="@+id/buton_thongtin"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/activity_margin_top" />
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:text="@string/exit" />
 
 
 </RelativeLayout>
