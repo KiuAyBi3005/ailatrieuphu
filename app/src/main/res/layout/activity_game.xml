@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ailatrieuphu"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_question"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_game_text_height" />
+
+    <Button
+        android:id="@+id/button_answer_a"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_game_button_height"
+        android:background="@color/colorBackgroud"
+        android:text="@string/answer_a" />
+
+    <Button
+        android:id="@+id/button_answer_b"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_game_button_height"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:background="@color/colorBackgroud"
+        android:text="@string/answer_b" />
+
+    <Button
+        android:id="@+id/button_answer_c"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_game_button_height"
+        android:layout_marginTop="@dimen/activity_game_margin_top"
+        android:background="@color/colorBackgroud"
+        android:text="@string/answer_c" />
+
+    <Button
+        android:id="@+id/button_answer_d"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_game_button_height"
+        android:layout_marginTop="@dimen/activity_game_margin_top"
+        android:background="@color/colorBackgroud"
+        android:text="@string/answer_d" />
+</LinearLayout>
