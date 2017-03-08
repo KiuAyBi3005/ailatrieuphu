@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Game Ai La Trieu Phu</string>
-    <string name="Batdau">Bắt đầu</string>
-    <string name="Huongdan">Hướng dẫn</string>
-    <string name="Thongtin">Thông tin</string>
-    <string name="Thoat">Thoát</string>
-    <string name="Dapana">Đáp án A</string>
-    <string name="Dapanb">Đáp án B</string>
-    <string name="Dapanc">Đáp án C</string>
-    <string name="Dapand">Đáp án D</string>
+    <string name="start">Bắt đầu</string>
+    <string name="guide">Hướng dẫn</string>
+    <string name="information">Thông tin</string>
+    <string name="exit">Thoát</string>
+    <string name="answer_a">Đáp án A</string>
+    <string name="answer_b">Đáp án B</string>
+    <string name="answer_c">Đáp án C</string>
+    <string name="answer_d">Đáp án D</string>
 
 </resources>

@@ -3,11 +3,15 @@ package com.example.quanganhpham.gameailatrieuphu;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     Button button_start;
     Button button_exit;
+    ImageView image_game;
     boolean clicked = false;
 
     @Override
@@ -40,6 +44,15 @@ public class MainActivity extends AppCompatActivity {
                     clicked = false;
                 }
 
+            }
+        });
+
+        image_game = (ImageView) findViewById(R.id.image_game);
+        image_game.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Animation anim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.romate);
+                image_game.startAnimation(anim);
             }
         });
     }

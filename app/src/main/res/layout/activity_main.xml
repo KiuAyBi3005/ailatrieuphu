@@ -11,16 +11,13 @@
         android:id="@+id/image_game"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/maxresdefault"
-
-        />
+        android:src="@mipmap/maxresdefault" />
 
     <Button
         android:id="@+id/button_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/image_game"
-
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/activity_margin_top"
         android:text="@string/start" />
@@ -30,7 +27,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_start"
-
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/activity_margin_top"
         android:text="@string/guide" />
@@ -40,7 +36,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_guide"
-
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/activity_margin_top"
         android:text="@string/information" />
@@ -50,10 +45,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_information"
-
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/activity_margin_top"
         android:text="@string/exit" />
-
 
 </RelativeLayout>
