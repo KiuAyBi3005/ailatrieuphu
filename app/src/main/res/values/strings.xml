@@ -4,9 +4,9 @@
     <string name="guide">Hướng dẫn</string>
     <string name="information">Thông tin</string>
     <string name="exit">Thoát</string>
-    <string name="answer_a">Đáp án A</string>
-    <string name="answer_b">Đáp án B</string>
-    <string name="answer_c">Đáp án C</string>
-    <string name="answer_d">Đáp án D</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="radiobutton">RadioButton</string>
 
 </resources>
