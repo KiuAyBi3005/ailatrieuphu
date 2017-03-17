@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-
 /**
  * Created by QuangAnhPham on 3/15/2017.
  */
@@ -34,7 +33,7 @@ public class PlayActivity extends AppCompatActivity {
     int MILISECOND = 31000;
     List<Question> listQuestion;
     Question nowQuestion;
-    CountDownTimer countTime, depay;
+    CountDownTimer mCountTime;
     TextView textTime;
 
     @Override
@@ -53,7 +52,7 @@ public class PlayActivity extends AppCompatActivity {
     }
 
     public void time() {
-        countTime = new CountDownTimer(MILISECOND, 1000) {
+        mCountTime = new CountDownTimer(MILISECOND, 1000) {
             @Override
             public void onTick(long l) {
                 textTime.setText("Time" + l / 1000);
@@ -68,11 +67,11 @@ public class PlayActivity extends AppCompatActivity {
                     time();
                 } else {
                     mIndex = 0;
-                    countTime.cancel();
+                    mCountTime.cancel();
                 }
             }
         };
-        countTime.start();
+        mCountTime.start();
     }
 
     public void show(int cuscor) {
