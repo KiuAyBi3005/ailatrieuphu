@@ -14,9 +14,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    Button button_start;
-    Button button_exit;
-    ImageView image_game;
+    Button buttonStart;
+    Button buttonExit;
+    ImageView imageGame;
     Context context = this;
 
     @Override
@@ -24,13 +24,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-        button_start = (Button) findViewById(R.id.button_start);
-        button_exit = (Button) findViewById(R.id.button_exit);
-        button_start.setTextColor(Color.CYAN);
-        button_exit.setTextColor(Color.CYAN);
-        button_start.setOnClickListener(click_start);
-        button_exit.setOnClickListener(click_exit);
-
+        buttonStart = (Button) findViewById(R.id.button_start);
+        buttonExit  = (Button) findViewById(R.id.button_exit);
+        buttonStart.setTextColor(Color.CYAN);
+        buttonExit.setTextColor(Color.CYAN);
+        buttonStart.setOnClickListener(click_start);
+        buttonExit.setOnClickListener(click_exit);
     }
 
     public View.OnClickListener click_start = new View.OnClickListener() {
